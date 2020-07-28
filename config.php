@@ -4,7 +4,7 @@ unset($CFG);
 global $CFG;
 $CFG = new stdClass();
 
-$CFG->dbtype    = getenv('pgs');
+$CFG->dbtype    = getenv('pgsql');
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = getenv('ec2-52-204-20-42.compute-1.amazonaws.com');
 $CFG->dbname    = getenv('d83bp02q4lq0a5');
